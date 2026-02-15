@@ -7,18 +7,18 @@ Core algorithm and API service for ALIVE written in Rust
 [![Status](https://img.shields.io/badge/Status-MVP-green)]()
 ---
 
-**ALIVE** es una arquitectura de búsqueda paralela inspirada diseñada para entornos de **Big Data, Ciberseguridad y Biología Computacional**, el algoritmo rompe con el paradigma de la exploración lineal al utilizar una mecánica de **Enjambre** que operan bajo leyes de probabilidad estocástica.
+**ALIVE** es una arquitectura de búsqueda paralela inspirada en la naturaleza, diseñada para entornos de **Big Data, Ciberseguridad y Biología Computacional**, el algoritmo rompe con el paradigma de la exploración lineal al utilizar una mecánica de **Enjambre** que operan bajo leyes de probabilidad estocástica.
 
 ### Características Únicas
 
-* **Exploración de Doble Herencia**: 
-* **Agentes Globales (Vuelo de Lévy)**: 
-* **Agentes Locales (Quasi-BFS)**: 
+* **La arquitectura ALIVE opera bajo un modelo de replicación dual**: 
+* **ALIVE utiliza una dinámica de desplazamiento de largo alcance no lineal.**: 
+* **Cada unidad de infección activa un escaneo de alta resolución en su entorno inmediato**: 
 
 
-* **Gestión de Entropía**: Utiliza la impredecibilidad para evitar sesgos de búsqueda, permitiendo encontrar "agujas en pajares" con una fracción del coste computacional.
-* **Control de Población Viral**: Mecanismos nativos de ciclo de vida limitado y fusión de agentes para prevenir la saturación del sistema (Backpressure).
-* **Persistencia Adaptativa**: El algoritmo es capaz de detenerse tras el primer hallazgo o persistir hasta la exploración del 100% de la estructura de datos.
+* Utiliza una tecnica  y mecanica particular para evitar sesgos de búsqueda, permitiendo encontrar "agujas en pajares" con una fracción del coste computacional.
+* Utiliza Mecanismos nativos de ciclo de vida limitado y fusión de agentes para prevenir la saturación del sistema (Backpressure).
+* El algoritmo es capaz de detenerse tras el primer hallazgo o persistir hasta la exploración del 100% de la estructura de datos.
 
 ---
 
