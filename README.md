@@ -1,7 +1,17 @@
-# ALIVE: Algoritmo de Infección Viral Entrópica
+___   _      ___  _   _  ____
+      / _ \ | |    |_ _|| | | || ___|
+     / /_\ \| |     | | | | | || |__ 
+     |  _  || |___ _| |_ \ V / | |___
+     |_| |_||_____|_____| \_/  |_____|
+    -----------------------------------
+      ALIVE ALGORITHM v1.0.9-OPTIMIZED
+        (c) Ariel Bodan - Restricted
+
+# A.L.I.V.E
 Core algorithm and API service for ALIVE written in Rust
 
-&gt; **Búsqueda viral optimizada en grafos y espacios discretos. 100× más rápido que Random Walk.**
+**Búsqueda viral optimizada en grafos y espacios discretos. 100× más rápido que Random Walk.**
+Implementa una dinámica de desplazamiento de largo alcance no lineal para cobertura global, complementada con escaneos de alta resolución en entornos inmediatos para asegurar la integridad del descubrimiento.
 
 [![Rust](https://img.shields.io/badge/Rust-1.75%2B-orange)](https://rust-lang.org)
 [![Status](https://img.shields.io/badge/Status-MVP-green)]()
@@ -16,7 +26,7 @@ Core algorithm and API service for ALIVE written in Rust
 * **Cada unidad de infección activa un escaneo de alta resolución en su entorno inmediato**: 
 
 
-* Utiliza una tecnica  y mecanica particular para evitar sesgos de búsqueda, permitiendo encontrar "agujas en pajares" con una fracción del coste computacional.
+* Utiliza una tecnica y mecanica particular para evitar sesgos de búsqueda, permitiendo encontrar "agujas en pajares" con una fracción del coste computacional.
 * Utiliza Mecanismos nativos de ciclo de vida limitado y fusión de agentes para prevenir la saturación del sistema (Backpressure).
 * El algoritmo es capaz de detenerse tras el primer hallazgo o persistir hasta la exploración del 100% de la estructura de datos.
 
