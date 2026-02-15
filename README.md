@@ -34,7 +34,7 @@ Implementa una dinámica de desplazamiento de largo alcance no lineal para cober
 
 ## Rendimiento y Benchmarks (0.1.0-alpha.1)
 
-La versión actual (0.1.0-alpha.1) ha sido optimizada para **throughput masivo** en Python mediante el uso de bindings locales y generadores de aleatoriedad de alta velocidad.
+La versión actual (0.1.0-alpha.1) ha sido optimizada para **throughput masivo** mediante el uso de bindings locales y generadores de aleatoriedad de alta velocidad.
 
 | Métrica | Resultado Esperado |
 | --- | --- |
